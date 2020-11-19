@@ -1,0 +1,134 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #616971;
+}
+
+/*top-nav start*/
+.top-nav{
+    background: #7aaec4;
+    height: 2.8rem;
+}
+.top-nav--link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+/*top-nav end*/
+
+/*navbar start*/
+.navbar{
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+    z-index: 1;
+}
+
+.nav-image{
+    width: 80px;
+    height: 70px;
+}
+
+/*navbar end*/
+
+/* carousel start*/
+.carousel{
+    box-shadow:0 .5rem .5rem rgba(0, 0, 0, .1);
+}
+
+.carousel-img img{
+    height: 500px;
+}
+.fa-chevron-left{
+    color: orangered;
+}
+.fa-chevron-right{
+    color: orangered;
+}
+.carousel-inner{
+    max-height: 38rem;
+}
+
+.carousel-item.active,
+.carousel-control-next,
+.carousel-control-prev{
+    transition: transform 1s ease-in-out;
+}
+
+.content1{
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    border-radius: 10px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+}
+.title{
+    border-bottom: 2px solid black;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+}
+/* carousel end*/
+
+
+/* main section start */
+
+.title1{
+    border-bottom: 2px solid black;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+}
+/* main section end */
+
+/* fixed background Image start */
+.fixed-background{
+    background: url(img/bg.jpg) repeat fixed center/cover;
+}
+.fixed{
+    padding: 10rem 0;
+}
+/* sticky navbar start*/
+.fa-arrow-alt-circle-down{
+    margin: auto;
+    color: blanchedalmond;
+    font-size: 30px;
+}
+/* sticky navbar end*/
+/* fixed background Image end */
+
+/* modal popUp start */
+.modal img{
+    border-radius: 50%;
+}
+/* modal popUp end */
+
+/*footer start*/
+
+.fa-facebook{
+    color:#3b5998 ;
+    font-size: 28px;
+    cursor: pointer;
+}
+.fa-linkedin{
+    color:  #0e76a8;
+    font-size: 28px;
+    cursor: pointer;
+}
+.fa-twitter-square{
+    color: #00acee;
+    font-size: 28px;
+    cursor: pointer;
+}
+.fa-instagram{
+    color: #8a3ab9;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/*footer end*/
+
+
+
